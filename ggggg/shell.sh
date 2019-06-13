@@ -15,7 +15,7 @@ project_name=ggggg
 scheme_name=ggggg
 
 #打包模式 Debug/Release
-development_mode=Debug
+development_mode=Release
 
 #build文件夹路径
 build_path=${project_path}/build
