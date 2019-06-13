@@ -63,7 +63,7 @@ echo '///-----------'
 echo '/// 正在编译工程:'${development_mode}
 echo '///-----------'
 xcodebuild \
-archive -workspace ${project_path}/${project_name}.xcodeproj \
+archive -project ${project_path}/${project_name}.xcodeproj \
 -scheme ${scheme_name} \
 -configuration ${development_mode} \
 -archivePath ${build_path}/${project_name}.xcarchive  -quiet  || exit
